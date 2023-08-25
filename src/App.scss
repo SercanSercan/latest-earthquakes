@@ -1,0 +1,20 @@
+@use "@fremtind/jkl-button/button";
+@use "@fremtind/jkl-content-toggle/content-toggle";
+@use '@fremtind/jkl-core/jkl';
+@use "@fremtind/jkl-expand-button/expand-button";
+@use "@fremtind/jkl-icon-button/icon-button";
+@use "@fremtind/jkl-icons/icons";
+@use "@fremtind/jkl-loader/loader";
+@use "@fremtind/jkl-table/table";
+@use "@fremtind/jkl-tag/tag";
+@use '@fremtind/jkl-webfonts/webfonts' with (
+  $webfonts-dir: '../../../node_modules/@fremtind/jkl-webfonts/fonts'
+);
+
+.app {
+  margin: jkl.$spacing-2xl auto;
+
+  &__magnitude-tag {
+    padding: 0.025rem jkl.$spacing-8;
+  }
+}
