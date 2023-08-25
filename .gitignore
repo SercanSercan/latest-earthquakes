@@ -1,0 +1,29 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+# misc
+# /build/static # Never ignore build files! Because release script needs to push them while deploying.
+.idea/
+.DS_Store
+.env.test.local
+.env.production.local
+.vscode
+/target
+.eslintcache
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
